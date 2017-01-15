@@ -41,7 +41,7 @@ php -S localhost:8000 index.php
 
 
 | paths | params | header | methods | description  | response
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | `/login` | username, password | | POST | authenticate user | {"status":true,"message":"Logged In Successfully","token":"cd23ec6b7e093127ede983ffca9f8aef4b709b7d"}|
 | `/products`  | | token | GET | lists all the items | {"products":[{"productId":"1","productName":"Nutella Jar","price":"1000"},{"productId":"5","productName":"Green Tea  Honey","price":"500"}]}
 | `/products/{id}` | productId | token | GET | shows details of item of given itemId | {"product":{"productName":"Green Tea  Honey","price":"500","productId":"4"}} |
@@ -49,9 +49,6 @@ php -S localhost:8000 index.php
 | `/products/{id}` | productId | token | POST | updates existing details of item |  {"product":{"productId":"2","productName":"Nutella Jar BIG","price":"1200"}} |
 | `/products/{id}` | productId | token | DELETE | deletes a specific item | { "status": true } |
 
-here is [link to postman][] for more details
 
-
-[link to postman]: https://www.getpostman.com/collections/3a118cb196e1e2cd6f5e
 
 
