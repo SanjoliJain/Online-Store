@@ -14,7 +14,7 @@ git clone https://github.com/SanjoliJain/Online-Store.git
 * change directory to the project directory
 
 ```
-cd OnlineStore_REST
+cd Online-Store
 ```
 
 * run command to dump the mysql database
