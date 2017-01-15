@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "68b5efbc77bdde2213914d81600ae687",
+    "content-hash": "62edde5f34395b99f39f7e257dee1f9f",
+    "packages": [
+        {
+            "name": "philipbrown/signature-php",
+            "version": "v5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/philipbrown/signature-php.git",
+                "reference": "597b3ae205e87f5b6d5774892b5ce12347ebf323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/philipbrown/signature-php/zipball/597b3ae205e87f5b6d5774892b5ce12347ebf323",
+                "reference": "597b3ae205e87f5b6d5774892b5ce12347ebf323",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhilipBrown\\Signature\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philip Brown",
+                    "email": "phil@ipbrown.com"
+                }
+            ],
+            "description": "HMAC-SHA authentication",
+            "keywords": [
+                "Authentication",
+                "HMAC-SHA"
+            ],
+            "time": "2015-04-30 07:51:46"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
