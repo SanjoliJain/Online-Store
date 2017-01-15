@@ -52,6 +52,12 @@ php -S localhost:8000 index.php
 Notes :
 * Users log in through /login route with username and password as parameters which returns a token in response.
 The username and md5(password) are stored in users table at backend. 
+Try to login by username=demo and password=demo .(Alraedy saved in users table). To add new users , username and md5(password) have to added in users table manually.
 * For further add/edit/search/delete operations the user must send the generated token in header.
+
+Database :
+1. Users table : Stores users details
+2. Products : Stores Products
+3. Token table: Stores latest token for userId
 
 
