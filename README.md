@@ -56,8 +56,8 @@ Try to login by username=demo and password=demo .(Alraedy saved in users table).
 * For further add/edit/search/delete operations the user must send the generated token in header.
 
 Database :
-1. Users table : Stores users details
-2. Products : Stores Products
-3. Token table: Stores latest token for userId
+* Users table : Stores users details
+* Products : Stores Products
+* Token table: Stores latest token for userId
 
 
