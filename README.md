@@ -1,4 +1,4 @@
-# StoreAPI
+# RESTful API for Online Store
 
 RESTful API for adding/searching/deleting/editing products in Online Store
 
@@ -49,6 +49,9 @@ php -S localhost:8000 index.php
 | `/products/{id}` | productId | token | POST | updates existing details of item |  {"product":{"productId":"2","productName":"Nutella Jar BIG","price":"1200"}} |
 | `/products/{id}` | productId | token | DELETE | deletes a specific item | { "status": true } |
 
-
+Notes :
+1. Users log in through /login route with username and password as parameters which returns a token in response.
+The username and md5(password) are stored in users table at backend. 
+2. For further add/edit/search/delete operations the user must send the generated token in header.
 
 
