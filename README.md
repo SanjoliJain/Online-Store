@@ -8,7 +8,7 @@ RESTful API for adding/searching/deleting/editing products in Online Store
 * clone the repository in a folder, use
 
 ```
-git clone https://github.com/SanjoliJain/Online-Store-RESTful.git
+git clone https://github.com/SanjoliJain/Online-Store.git
 ```
 
 * change directory to the project directory
